@@ -19,7 +19,7 @@ public class Persoana {
     private String prenume;
     private Integer varsta;
 
-    public Persoana(String nume, String prenume, Integer varsta) {
+    public Persoana(String nume, String prenume, Integer varsta, Double rating, String nationalitate) {
         this.nume = nume;
         this.prenume = prenume;
         this.varsta = varsta;

@@ -4,7 +4,7 @@ public class PersoanaAngajat extends Persoana implements Angajat{
 
 
     public PersoanaAngajat(String nume, String prenume, Integer varsta) {
-        super(nume, prenume, varsta);
+        super(nume, prenume, varsta, rating, nationalitate);
     }
 
 

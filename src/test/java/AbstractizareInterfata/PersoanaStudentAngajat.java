@@ -2,7 +2,7 @@ package AbstractizareInterfata;
 
 public class PersoanaStudentAngajat extends Persoana implements Student, Angajat{
     public PersoanaStudentAngajat(String nume, String prenume, Integer varsta) {
-        super(nume, prenume, varsta);
+        super(nume, prenume, varsta, rating, nationalitate);
     }
 
     @Override
